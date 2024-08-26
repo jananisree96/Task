@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Employee Spotting App</title>
+    <link rel="stylesheet" href="./styles.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+  </head>
+  <body>
+   <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top" style="background-color: #e3f2fd;">
+        <div class="container-fluid">
+          <img src="./Assets/logo.png" alt="Logo" />
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0" style="width: 100%; justify-content: flex-end;">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#features">Features</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#screenshots">Screenshots</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#pricing">Pricing</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    <section class="banner-container">
+      <div class="banner-1">
+        <p id="para1">
+          If you find managing your field executives to be a challenging task,
+        </p>
+        <p id="para2">
+          we have a solution for you. Our top-tier application can help identify
+          and address any concerns.
+        </p>
+        <button class="btn1">Get Started</button>
+      </div>
+      <div class="banner-2">
+        <img src="./Assets/banner.png" alt="banner" data-aos="fade-right" />
+      </div>
+    </section>
+    <section class="feature-container">
+      <div class="feature-box">
+        <h1 class="heading">Explore Premium Features</h1>
+        <p class="para3">
+          With our app Explore Premium features you can access a range of unique
+          features and discover something new.
+        </p>
+      </div>
+      <div class="imgGallery" id="features">
+        <div class="Gallery1" data-aos="fade-right"
+        data-aos-offset="300"
+        data-aos-easing="ease-in-sine">
+          <img src="./Assets/facial.png" alt="face" />
+          <h3>Facial login</h3>
+          <p>
+            Facial login allows users to quickly and securely log into their
+            accounts using facial recognition technology. By simply taking a
+            picture of their face, users can easily and quickly access their
+            accounts without having to remember a complicated password.
+          </p>
+        </div>
+        <div class="Gallery2" data-aos="fade-right"
+        data-aos-offset="300"
+        data-aos-easing="ease-in-sine">
+          <img src="./Assets/live_tracking.png" alt="livetrack" />
+          <h3>Live tracking</h3>
+          <p>
+            Our live tracking system allows you to stay up-to-date on the status
+            of your employee's activity its feature gives you real-time updates
+            on the location of your field executives
+          </p>
+        </div>
+        <div class="Gallery3"data-aos="fade-right"
+        data-aos-offset="300"
+        data-aos-easing="ease-in-sine">
+          <img src="./Assets/work_history.png" alt="workhistory" />
+          <h3>Work History</h3>
+          <p>
+            The ESA app is implemented with a comprehensive employee work
+            history management system to ensure accurate and up-to-date records
+            of each employee's work history.
+          </p>
+        </div>
+        <div class="Gallery1"data-aos="fade-right"
+        data-aos-offset="300"
+        data-aos-easing="ease-in-sine">
+          <img src="./Assets/attendance.png" alt="attendance" />
+          <h3>Attendance</h3>
+          <p>
+            Attendance Management System allows employees to clock in and out of
+            the workplace with ease and accuracy. The system also provides
+            managers with the ability to track and monitor employee attendance
+            and absence records and can generate payroll details
+          </p>
+        </div>
+        <div class="Gallery2" data-aos="fade-right"
+        data-aos-offset="300"
+        data-aos-easing="ease-in-sine">
+          <img src="./Assets/payroll.png" alt="payroll" />
+          <h3>Payroll</h3>
+          <p>
+            The payroll management system simplifies the process of managing
+            employee salaries and wages. It allows employers to easily track and
+            calculate employee paycheques, deductions, and taxes.
+          </p>
+        </div>
+        <div class="Gallery3" data-aos="fade-right"
+        data-aos-offset="300"
+        data-aos-easing="ease-in-sine">
+          <img src="./Assets/task_management.png" alt="taskmanagement" />
+          <h3>Task Management</h3>
+          <p>
+            Our ESA app is an effective tool for organizing and tracking tasks
+            and projects. They help improve communication, collaboration, and
+            productivity in teams of any size.
+          </p>
+        </div>
+        <div class="Gallery1" data-aos="fade-right"
+        data-aos-offset="300"
+        data-aos-easing="ease-in-sine">
+          <img src="./Assets/Announcements.png" alt="Announcements" />
+          <h3>Announcements</h3>
+          <p>
+            ESA app provides a secure platform for employers to effectively
+            communicate with their staff. The system allows employers to easily
+            create, manage, and distribute announcements to their employees in a
+            timely and efficient manner.
+          </p>
+        </div>
+        <div class="Gallery2"data-aos="fade-right"
+        data-aos-offset="300"
+        data-aos-easing="ease-in-sine">
+          <img src="./Assets/Chating system.png" alt="Chatingsystem" />
+          <h3>Chating system</h3>
+          <p>
+            ESA Tracking app provides a convenient way for employees to
+            communicate with each other. This system allows employees to stay
+            connected and better collaborate on projects from any location.
+          </p>
+        </div>
+        <div class="Gallery3"></div>
+      </div>
+    </section>
+    <section class="intro-container">
+      <div class="imgcontainer">
+        <img src="./Assets/phone.png" alt="phone" />
+      </div>
+      <div class="definition">
+        <h1 class="defheading">Work faster with powerful tools.</h1>
+        <p>Easily managed to log in and log out using the ESA TRACKING app</p>
+        <p>
+          99% accuracy in spotting the field executives to collaborate promptly
+        </p>
+        <p>
+          ESA APP helps maintain and manage the work records of the employees
+        </p>
+        <p>
+          Attendance handling is the most difficult but our top-notch app helps
+          you handle it effortlessly
+        </p>
+        <p>
+          Managing payroll tasks and other collaboration are much easier with
+          our technology built
+        </p>
+        <div class="icons">
+          <i class="fas fa-bell"></i>
+          <i class="fas fa-envelope"></i>
+          <i class="fas fa-video"></i>
+        </div>
+      </div>
+    </section>
+    <section class="work-container">
+      <div class="work-box">
+        <h1>How sApp works?</h1>
+        <p>
+          To install the app, simply search for it in your app store or click
+          the download icon to get it done. It is an easy and straightforward
+          process. This app is designed to help you with managing your employee
+          tasks more efficiently and convenient.
+        </p>
+      </div>
+      <div class="boxes">
+        <div class="box-1">
+          <img src="./Assets/download.png" alt="downloadlogo" />
+          <h3>Install the App</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius
+            saepe, voluptates quis enim incidunt obcaecati?
+          </p>
+        </div>
+        <i
+          class="fas fa-arrow-right"
+          data-aos="fade-right"
+          data-aos-duration="1000"
+        ></i>
+        <div class="box-2">
+          <img src="./Assets/settings.png" alt="settingslogo" />
+          <h3>Setup your profile</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius
+            saepe, voluptates quis enim incidunt obcaecati?
+          </p>
+        </div>
+        <i
+          class="fas fa-arrow-right"
+          data-aos="fade-right"
+          data-aos-duration="1000"
+        ></i>
+        <div class="box-3">
+          <img src="./Assets/app.png" alt="applogo" />
+          <h3>Enjoy the features!</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius
+            saepe, voluptates quis enim incidunt obcaecati?
+          </p>
+        </div>
+      </div>
+    </section>
+    <section class="screenshot-container">
+      <div class="screenshot-content" id="screenshots">
+        <h1>Simple & Beautiful Interface</h1>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum
+          obcaecati dignissimos quae quo ad iste ipsum officiis deleniti
+          asperiores sit.
+        </p>
+      </div>
+      <div class="carousel-box">
+        <div class="carousel-container">
+          <div class="car-1" data-aos="flip-left">
+            <img src="./Assets/nov1.png" alt="img1" />
+          </div>
+          <div class="car-2"data-aos="flip-right">
+            <img src="./Assets/nov2.png" alt="img2" />
+          </div>
+          <div class="car-3"data-aos="flip-left">
+            <img src="./Assets/nov3.png" alt="img3" />
+          </div>
+          <div class="car-4"data-aos="flip-right">
+            <img src="./Assets/nov4.png" alt="img4" />
+          </div>
+          <div class="car-5"data-aos="flip-left">
+            <img src="./Assets/nov5.png" alt="img5" />
+          </div>
+          <div class="car-6"data-aos="flip-right">
+            <img src="./Assets/nov6.png" alt="img6" />
+          </div>
+        </div>
+      </div>
+      <div class="carousel">
+        <div class="carousel-item active">
+          <img src="https://i.pravatar.cc/80" alt="User">
+            <h3>John William</h3>
+            <p>Los Angeles, California</p>
+            <div class="stars">
+                ★★★★★
+            </div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam rem sunt nulla ducimus expedita.</p>
+        </div>
+        <div class="carousel-item">
+          <img src="https://randomuser.me/api/portraits/men/1.jpg" alt="User">
+            <h3>John Doe</h3>
+            <p>New York, USA</p>
+            <div class="stars">
+                ★★★★★
+            </div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam rem sunt nulla ducimus expedita Lorem ipsum, dolor sit amet consectetur adipisicing elit. Culpa quasi facere dolorum! Labore aliquam</p>
+        </div>
+        <div class="carousel-item">
+          <img src="https://randomuser.me/api/portraits/women/2.jpg" alt="User">
+            <h3>Emily Smith</h3>
+            <p>Chicago, Illinois</p>
+            <div class="stars">
+                ★★★★
+            </div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam rem sunt nulla ducimus expedita.</p>
+        </div>
+        <div class="carousel-indicators">
+            <span class="active" onclick="showSlide(0)"></span>
+            <span onclick="showSlide(1)"></span>
+            <span onclick="showSlide(2)"></span>
+        </div>
+    </div>
+    </section>
+    <div class="pricing-table" id="pricing" data-aos="fade-up-right">
+      <h2>Pricing</h2>
+      <table>
+          <thead>
+              <tr>
+                  <th>Attendance & Payroll Features</th>
+                  <th>Pagarbook App</th>
+                  <th>Pagarbook App + Web</th>
+                  <th>Pagarbook App + Web + Lens</th>
+              </tr>
+          </thead>
+          <tbody>
+              <tr>
+                  <td>Attendance Automation</td>
+                  <td></td>
+                  <td><span class="cross">&#10006;</span></td>
+                  <td><span class="check">&#10004;</span></td>
+              </tr>
+              <tr>
+                  <td>Dummy Content</td>
+                  <td></td>
+                  <td><span class="cross">&#10006;</span></td>
+                  <td><span class="check">&#10004;</span></td>
+              </tr>
+              <tr>
+                  <td>AI based face recognition</td>
+                  <td></td>
+                  <td><span class="cross">&#10006;</span></td>
+                  <td><span class="check">&#10004;</span></td>
+              </tr>
+              <tr>
+                  <td>Fraud Attendance Detection</td>
+                  <td></td>
+                  <td><span class="cross">&#10006;</span></td>
+                  <td><span class="check">&#10004;</span></td>
+              </tr>
+              <tr>
+                  <td>John Doe</td>
+                  <td>30</td>
+                  <td>New York</td>
+                  <td><span class="check">&#10004;</span></td>
+              </tr>
+              <tr>
+                  <td>Jane Smith</td>
+                  <td>25</td>
+                  <td>Los Angeles</td>
+                  <td><span class="check">&#10004;</span></td>
+              </tr>
+              <tr>
+                  <td>Michael Johnson</td>
+                  <td>35</td>
+                  <td>Chicago</td>
+                  <td><span class="check">&#10004;</span></td>
+              </tr>
+              <tr>
+                  <td>Real-time attendance sync</td>
+                  <td></td>
+                  <td><span class="cross">&#10006;</span></td>
+                  <td><span class="check">&#10004;</span></td>
+              </tr>
+              <tr>
+                  <td>Emily Davis</td>
+                  <td>28</td>
+                  <td>Houston</td>
+                  <td><span class="check">&#10004;</span></td>
+              </tr>
+              <tr>
+                  <td>Track-in Track-out time of attendance</td>
+                  <td></td>
+                  <td><span class="cross">&#10006;</span></td>
+                  <td><span class="check">&#10004;</span></td>
+              </tr>
+          </tbody>
+      </table>
+      <p>Not sure what to choose? <a href="#">Contact Us</a></p>
+  </div>
+  <section class="footer-box">
+    <footer>
+        <div class="content-1">
+            <div class="social">
+                <img src="./Assets/logo.png" alt="logo">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur velit itaque debitis eius ut earum.</p>
+            </div>
+            <div class="social-2">
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fab fa-twitter"></i> 
+                <i class="fab fa-instagram"></i>
+                <i class="fab fa-linkedin"></i> 
+
+            </div>
+        </div>
+
+        <div class="content-2">
+            <h2>Useful Links</h2>
+            <ul>
+                <li>Home</li>
+                <li>About us</li>
+                <li>Services</li>
+                <li>Blog</li>
+                <li>Contact</li>
+            </ul>
+        </div>
+
+        <div class="content-3">
+            <h2>Product Help</h2>
+            <ul>
+                <li>FAQ</li>
+                <li>Privacy Policy</li>
+                <li>Support</li>
+                <li>Terms & Conditions</li>
+                <li>Contact</li>
+            </ul>
+        </div>
+
+    </footer>
+  </section>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    <script src="./script.js"></script>
+  </body>
+</html>
